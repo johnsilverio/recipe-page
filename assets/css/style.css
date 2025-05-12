@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+}
+
+/* Font Settings */
+h1,
+h2 {
+    font-family: 'Young Serif', serif;
+    font-weight: normal;
+}
+
+p,
+li,
+td {
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit';
+}
+
+h1 {
+    font-size: 42px;
+    color: hsl(24, 5%, 18%);
+}
+
+h2 {
+    font-size: 32px;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-size: 24px;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 16px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+
+/* Seções */
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: hsl(30, 18%, 87%);
+    width: 90%;
+    margin: 32px auto;
+}
+
+section {
+    padding: 0 48px;
+    margin-bottom: 28px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 800px;
+    margin: 100px auto;
+    border-radius: 34px;
+}
+
+.header {
+    padding: 48px 48px 0 48px;
+}
+
+.header h1 {
+    margin-bottom: 24px;
+}
+
+.header p {
+    margin-bottom: 28px;
+}
+
+.header-img img {
+    max-width: 100%;
+    border-radius: 22px;
+    margin-bottom: 28px;
+}
+
+.header-description {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 14px;
+    padding: 24px 32px;
+    margin-bottom: 28px;
+}
+
+.header-description li {
+    margin-bottom: 16px;
+    margin-left: 22px;
+    padding-left: 16px;
+    font-family: 'Outfit';
+}
+
+.header-description li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+section li {
+    margin-left: 22px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+
+section li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    height: 45px;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    padding: 12px 32px;
+}
+
+td:last-child {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+section:last-child {
+    padding-bottom: 32px;
+}
